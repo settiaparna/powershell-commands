@@ -5,13 +5,10 @@ Remove-Item -path "filename" -Recurse -force =delete the file
 Get-ChildItem =list of all files and folders
 Get-ChildItem -Recurse =list of files and which directory r in shown
 Get-ChildItem -Force =list of all hidden files
-Copy-Item -Path "path (filename)" -destination "path(filename)" -Recurse =copy the one file content to anotherfile
-in above command the destination path file are not excuted with given name their also to prepare 
-the given name file to create the file and to copy the content
 pwd or Get-Location =path
 Get-Service=listof all services in your local computer
 Get-History=list of commands used in powershell
-
+ copy-item  -path "path and name of the file" -destination "path and filename" =copy the one file to another file
  
 
 
