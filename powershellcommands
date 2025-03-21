@@ -1,4 +1,4 @@
-ccccc" =creating a new file in present working path
+
 New-item -Name "foldername " -ItemType "directory"=creating a new folder
 Remove-Item -path "foldername" -Recurse -force =delete the folder
 Remove-Item -path "filename" -Recurse -force =delete the file
