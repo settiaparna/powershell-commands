@@ -1,4 +1,4 @@
-new-item -Name "name of the file" -ItemType "file" =creating a new file in present working path
+ccccc" =creating a new file in present working path
 New-item -Name "foldername " -ItemType "directory"=creating a new folder
 Remove-Item -path "foldername" -Recurse -force =delete the folder
 Remove-Item -path "filename" -Recurse -force =delete the file
@@ -8,8 +8,9 @@ Get-ChildItem -Force =list of all hidden files
 pwd or Get-Location =path
 Get-Service=listof all services in your local computer
 Get-History=list of commands used in powershell
- copy-item  -path "path and name of the file" -destination "path and filename" =copy the one file to another file
- 
+copy-item  -path "path/name of the file" -destination "path/filename" =copy the one file to another file
+move-item  -path "path/name of the file" -destination "path/filename" =move the item
+
 
 
 
